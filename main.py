@@ -1,6 +1,6 @@
 import random
 import urllib.request
-import reddit as m
+import reddit_bot as m
 def download_image(url,title):
     try:
         fullname = str(title[0:9])+".jpg"
